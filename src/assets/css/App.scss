@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   color:#ffffff;
   font-family: 'Courier New','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  height: 1200px;
+  height: 1000px;
   text-align: center;
   
   /* home page  */
@@ -73,12 +73,12 @@
       }
   
       .sub-text{
-        padding-top: 450px;
+        padding-top: 300px;
         @media screen and (min-width:500px){
-          padding-top: 570px;
+          padding-top: 390px;
         }
         @media screen and (min-width:750px){
-          padding-top: 550px;
+          padding-top: 400px;
         }
       }
       .white-font{
@@ -114,13 +114,13 @@
   .about-me-page{
       // color:#ffffff;
       position:relative;
-      top: 10px;
+      // top: 100px;
       padding: 10px;
       // background-color: rgb(38, 46, 79);
       background-color: #ffffff;
-      height: 800px;
+      // height: 800px;
       @media screen and (min-width:500px) {
-        top: 100px;
+        // top: 100px;
       }
   
       h1{
@@ -132,9 +132,12 @@
       .about-me-content{
         @media screen and (min-width:750px){
           display: flex;
-          flex-direction: row-reverse;
+          flex-direction: row;
           justify-content:space-evenly;
-          margin-top:150px;
+          margin-top:50px;
+        }
+        @media screen and (min-width:1200px){
+          margin: 100px;
         }
       }
   
@@ -183,27 +186,27 @@
   
   
       }
-      .box{
-        position: relative;
-        display: flex;
-        margin:auto;
-        z-index: 3;
-        // background-color:rgb(38, 46, 79) ;
-        background-color: #ffffff;
-        width: 280px;
-        height:50px;
-        @media screen and (min-width:750px){
-          display: none;
-          position: absolute;
-          top:60px;
-          width: 250px;
-          height:50px;
-        }
-      }
+      // .box{
+      //   position: relative;
+      //   display: flex;
+      //   margin:auto;
+      //   z-index: 3;
+      //   // background-color:rgb(38, 46, 79) ;
+      //   background-color: #ffffff;
+      //   width: 280px;
+      //   height:50px;
+      //   @media screen and (min-width:750px){
+      //     display: none;
+      //     position: absolute;
+      //     top:60px;
+      //     width: 250px;
+      //     height:50px;
+      //   }
+      // }
       .pictureme{
         position: relative;
         display: flex;
-        top:-40px;
+        // top:-40px;
         z-index: 1;
         display: flex;
         @media screen and (min-width:750px){
@@ -231,13 +234,38 @@
   
   
   }
+  // portfolio page
+  .portfolio-page{
+    // background-color: #e2f3fd;
+    background-color:#f9f5f1;
+    color:#0d2135;
+    position: relative;
+    padding: 10px;
+    .project-image{
+      width: 100px;
+    }
+  }
+  // resume page
+  .resume-page{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 100px;
+
+  }
+  // contact page
+  .contact-page{
+    background-color:#f9f5f1 ;
+    color: #000000;
+    padding: 100px;
+
+  }
   // foooter
   footer{
       background-color: #0d2135;
       position:relative;
-      bottom: -100px;
+      bottom: 0px;
       @media screen and (min-width:500px) {
-        bottom: -10px;
+        bottom: 0px;
       }
   
       .contacts-footer{

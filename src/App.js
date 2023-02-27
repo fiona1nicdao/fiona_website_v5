@@ -6,6 +6,9 @@ import './assets/css/reset.css';
 import Header from './components/header/Header';
 import Home from './pages/home/Home';
 import Aboutme from './pages/aboutme/Aboutme';
+import Portfolio from './pages/portfolio/Portfolio';
+import Resume from './pages/resume/Resume';
+import Contact from './pages/contact/Contact';
 import Footer from './components/footer/Footer';
 
 function App() {
@@ -15,6 +18,9 @@ function App() {
       <Header/>
       <Home/>
       <Aboutme/>
+      <Portfolio/>
+      <Resume/>
+      <Contact/>
       <Footer/>
 
     </div>
