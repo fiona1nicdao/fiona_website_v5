@@ -1,6 +1,6 @@
 .App{
-  background-color: #0d2135;
-  // background-image: url(../images/flippedChicago.jpg);
+  // background-color: #0d2135;
+  background-image: url(../images/flippedChicago.jpg);
   background-size:cover !important;
   background-repeat: no-repeat;
   color:#ffffff;
@@ -110,8 +110,130 @@
       }
   
   }
+  // about me page 
+  .about-me-page{
+      // color:#ffffff;
+      position:relative;
+      top: 10px;
+      padding: 10px;
+      // background-color: rgb(38, 46, 79);
+      background-color: #ffffff;
+      height: 800px;
+      @media screen and (min-width:500px) {
+        top: 100px;
+      }
+  
+      h1{
+        // color:white;
+        color:black
+  
+  
+      }
+      .about-me-content{
+        @media screen and (min-width:750px){
+          display: flex;
+          flex-direction: row-reverse;
+          justify-content:space-evenly;
+          margin-top:150px;
+        }
+      }
+  
+      .Paragraph{
+        color:black;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+        text-align: center;
+        position:relative;
+        z-index: 2;
+        border-radius: 10px;
+        margin-bottom: 50px;
+        max-width: 400px;
+        margin: auto;
+        line-height: 25px;
+        @media screen and (min-width:750px){
+          width: 400px;
+          margin: none;
+          // margin-left: 100px;
+        }
+        @media screen and (min-width:1000px){
+          font-size:20px;
+          max-width: 550px;
+          width: 550px;
+          // text-align: left;
+        }
+        .large{
+          font-weight:900;
+          font-size: 30px;
+          padding: 5px;
+  
+        }
+        .textcoder{
+          font-weight: 900;
+          font-size: 25px;
+          padding: 10px;
+        }
+        .textme{
+          font-weight: 600;
+          @media screen and (min-width:1000px){
+            line-height: 30px;
+            text-align: left;
+  
+          }
+        }
+  
+  
+      }
+      .box{
+        position: relative;
+        display: flex;
+        margin:auto;
+        z-index: 3;
+        // background-color:rgb(38, 46, 79) ;
+        background-color: #ffffff;
+        width: 280px;
+        height:50px;
+        @media screen and (min-width:750px){
+          display: none;
+          position: absolute;
+          top:60px;
+          width: 250px;
+          height:50px;
+        }
+      }
+      .pictureme{
+        position: relative;
+        display: flex;
+        top:-40px;
+        z-index: 1;
+        display: flex;
+        @media screen and (min-width:750px){
+          // display: none;
+          top:-20px;
+          // margin-left:50px;
+          margin: auto;
+        }
+      }
+  
+      .me{
+  
+        margin:auto;
+        width: 200px;
+        @media screen and (min-width:750px){
+          width:250px;
+        }
+        @media screen and (min-width:1000px){
+          width:300px;
+  
+        }
+  
+  
+      }
+  
+  
+  }
   // foooter
   footer{
+      background-color: #0d2135;
       position:relative;
       bottom: -100px;
       @media screen and (min-width:500px) {
