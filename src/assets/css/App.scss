@@ -8,5 +8,25 @@
   height: 1200px;
   text-align: center;
 
+  // foooter
+  footer{
+      position:relative;
+      bottom: -100px;
+      @media screen and (min-width:500px) {
+        bottom: -10px;
+      }
   
+      .contacts-footer{
+        display:flex;
+        justify-content: center;
+      }
+      .footer-icon{
+        color:#ffffff;
+        padding: 40px;
+        font-size: 55px;
+      }
+      .footer-icon:hover{
+        color:rgb(78, 98, 141);
+      } 
+  }
 }
