@@ -19,7 +19,7 @@
     top:0px;
     width: 100%;
     transition: top 0.3s;
-    z-index: 3;
+    z-index: 10;
     @media screen and (min-width: 500px){
       display: flex;
       justify-content: space-around;
@@ -194,7 +194,7 @@
   // about me page 
   .about-me-page{
       // color:#ffffff;
-      // position:relative;
+      position:relative;
       // top: 100px;
       padding: 10px;
       // background-color: rgb(38, 46, 79);
@@ -206,9 +206,14 @@
   
       h1{
         // color:white;
-        color:black
-  
-  
+        position: relative;
+        font-family: 'Arial Narrow Bold', sans-serif;
+        color:#063a6e;
+        padding:20px 0px;
+        font-weight: 900;
+        font-size: 25px;
+        z-index: 3;
+        letter-spacing: 0.9px;
       }
       .about-me-content{
         @media screen and (min-width:750px){
@@ -225,11 +230,12 @@
       .Paragraph{
         color:black;
         font-family: Arial, Helvetica, sans-serif;
-        background-color: white;
+        // background-color: white;
         text-align: center;
-        // position:relative;
-        z-index: 2;
-        border-radius: 10px;
+        position:relative;
+        z-index: 1;
+        // border-radius: 10px;
+        padding-top:15px ;
         margin-bottom: 50px;
         max-width: 400px;
         margin: auto;
@@ -255,9 +261,10 @@
           font-weight: 900;
           font-size: 25px;
           padding: 10px;
+          background-color: none;
         }
         .textme{
-          font-weight: 600;
+          font-weight: 300;
           @media screen and (min-width:1000px){
             line-height: 30px;
             text-align: left;
@@ -267,28 +274,53 @@
   
   
       }
-      // .box{
-      //   position: relative;
-      //   display: flex;
-      //   margin:auto;
-      //   z-index: 3;
-      //   // background-color:rgb(38, 46, 79) ;
-      //   background-color: #ffffff;
-      //   width: 280px;
-      //   height:50px;
-      //   @media screen and (min-width:750px){
-      //     display: none;
-      //     position: absolute;
-      //     top:60px;
-      //     width: 250px;
-      //     height:50px;
-      //   }
-      // }
+      .orange-box{
+        position:absolute;
+        top:0px;
+        left:0px;
+        z-index: 1;
+        background-color: #e07d54;
+        width:280px;
+        height:335px;
+        border-radius: 0px 0px 30px 0px;
+        @media screen and (min-width:500px){
+          width:380px;
+        }
+        @media screen and (min-width:750px){
+          width:300px;
+          top:40px;
+          border-radius: 0px 30px 30px 0px;
+
+        }
+      }
+      .blue-box{
+        position:absolute;
+        top:370px;
+        right:0px;
+        z-index: 1;
+        background-color: #e2f3fd;
+        width:280px;
+        height:240px;
+        border-radius: 30px 0px 0px 30px;
+        @media screen and (min-width:500px){
+          width:380px;
+        }
+        @media screen and (min-width:750px){
+          width:440px;
+          top:190px;
+          border-radius: 30px 0px 0px 30px;
+        }
+        @media screen and (min-width:1000px){
+          width:610px;
+          height:250px;
+          top:210px;
+        }
+      }
       .pictureme{
         // position: relative;
         display: flex;
         // top:-40px;
-        z-index: 1;
+        z-index: 3;
         display: flex;
         @media screen and (min-width:750px){
           // display: none;
@@ -299,9 +331,10 @@
       }
   
       .me{
-  
+        z-index: 3;
         margin:auto;
         width: 200px;
+        border-radius: 5px;
         @media screen and (min-width:750px){
           width:250px;
         }
