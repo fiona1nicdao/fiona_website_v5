@@ -1,5 +1,5 @@
 .App{
-  // background-color: #0d2135;
+  background-color: #0d2135;
   background-image: url(../images/flippedChicago.jpg);
   background-size:cover !important;
   background-repeat: no-repeat;
@@ -7,11 +7,92 @@
   font-family: 'Courier New','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   height: 1000px;
   text-align: center;
-  
+
+  // Header
+  .menu-header{
+    // background-color:rgb(29, 40, 52);
+    background-image: linear-gradient(to bottom, rgb(29, 40, 52),rgba(29, 40, 52,1),rgba(29, 40, 52, 0.8),rgba(29, 40, 52,0));
+    height:180px;
+    padding: 30px 30px 10px 30px;
+    display: block;
+    position: fixed;
+    top:0px;
+    width: 100%;
+    transition: top 0.3s;
+    z-index: 3;
+    @media screen and (min-width: 500px){
+      display: flex;
+      justify-content: space-around;
+      height: 70px;
+      padding: 30px 30px 10px 30px;
+
+    } 
+    .initials{
+      display: none;
+      @media screen and (min-width:750px){
+        display: block;
+      }
+
+    }
+    .dropdown{
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: flex-start;
+      text-align: right;
+      @media screen and (min-width:500px) {
+        text-align: center;
+      }
+    }
+    .dropdown-menu-button{
+      color:#ffffff;
+      background: none;
+      border: none;
+      font-size: 40px;
+      padding:0px 0px 10px 0px;
+      @media screen and (min-width:500px) {
+        display: none;
+      }
+    }
+    .menu ul{
+      display: none;
+      @media screen and (min-width: 500px){
+        display: flex;
+      } 
+      li{
+        font-size: 20px;
+        padding:0px 20px 15px 20px;
+        font-weight: 900;
+        @media screen and (min-width: 500px){
+          padding:0px 20px 0px 20px;
+
+        }
+      }
+      li:hover{
+        color:#e07d54;
+      }
+      li a{
+        font-size: 20px;
+        color: #ffffff;
+        text-decoration: none;
+      }
+      li a:hover{
+        color:#e07d54;
+      }
+    }
+    @media screen and (max-width: 500px){
+      .dropdown:hover .menu ul{
+        display: block;
+        
+      }
+    } 
+
+
+  }
   /* home page  */
   .home-page{
-      padding-top: 35px;
+      padding-top:160px;
       z-index: 1;
+      height:745px;
       
       @media screen and (min-width: 500px){
         padding-top: 0px;
@@ -41,7 +122,7 @@
         font-size: 30px;
         letter-spacing: 5px;
         @media screen and (min-width:500px) {
-          padding:50px 200px 20px 0px ;
+          padding:80px 200px 20px 0px ;
         }
         @media screen and (min-width:750px){
           font-size: 40px;
@@ -113,7 +194,7 @@
   // about me page 
   .about-me-page{
       // color:#ffffff;
-      position:relative;
+      // position:relative;
       // top: 100px;
       padding: 10px;
       // background-color: rgb(38, 46, 79);
@@ -146,7 +227,7 @@
         font-family: Arial, Helvetica, sans-serif;
         background-color: white;
         text-align: center;
-        position:relative;
+        // position:relative;
         z-index: 2;
         border-radius: 10px;
         margin-bottom: 50px;
@@ -204,7 +285,7 @@
       //   }
       // }
       .pictureme{
-        position: relative;
+        // position: relative;
         display: flex;
         // top:-40px;
         z-index: 1;
@@ -249,7 +330,7 @@
   .resume-page{
     background-color: #ffffff;
     color: #000000;
-    padding: 100px;
+    // padding: 100px;
 
   }
   // contact page

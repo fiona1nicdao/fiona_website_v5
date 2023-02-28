@@ -3,7 +3,7 @@ import weatherPIC from '../../assets/images/weather.png'
 import polariPIC from '../../assets/images/polari.png'
 export default function Portfolio(){
     return(
-        <div className="portfolio-page">
+        <div id="Portfolio"className="portfolio-page">
             <h1>Portfolio Page</h1>
             <div className="Projects">
                 <div className="project-1">
