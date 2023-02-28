@@ -24,7 +24,7 @@ const Trail = ({ open, children }) => {
 export default function Home(){
   const [open, set] = useState(true)
     return(
-      <div className='home-page'>
+      <div id="Home" className='home-page'>
             <div className='main-text'onClick={() => set(state => !state)} >
               <Trail open={open}>
               <div className='white-font hello-center'> Hello, I am</div>
@@ -32,11 +32,11 @@ export default function Home(){
               <div className='white-font title-text'>Software Engineer</div>
               </Trail>
            </div>
-            <div className='sub-text'>
+            {/* <div className='sub-text'>
               <p className='change-text'>
                 Change your Perspective on the World Around You, <br></br>You Might Find Something Interesting 
               </p>
-            </div>
+            </div> */}
       </div>
     )
 
