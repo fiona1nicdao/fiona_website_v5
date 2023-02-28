@@ -19,7 +19,7 @@
     top:0px;
     width: 100%;
     transition: top 0.3s;
-    z-index: 3;
+    z-index: 10;
     @media screen and (min-width: 500px){
       display: flex;
       justify-content: space-around;
@@ -194,7 +194,7 @@
   // about me page 
   .about-me-page{
       // color:#ffffff;
-      // position:relative;
+      position:relative;
       // top: 100px;
       padding: 10px;
       // background-color: rgb(38, 46, 79);
@@ -206,9 +206,14 @@
   
       h1{
         // color:white;
-        color:black
-  
-  
+        position: relative;
+        font-family: 'Arial Narrow Bold', sans-serif;
+        color:#063a6e;
+        padding:20px 0px;
+        font-weight: 900;
+        font-size: 25px;
+        z-index: 3;
+        letter-spacing: 0.9px;
       }
       .about-me-content{
         @media screen and (min-width:750px){
@@ -225,11 +230,12 @@
       .Paragraph{
         color:black;
         font-family: Arial, Helvetica, sans-serif;
-        background-color: white;
+        // background-color: white;
         text-align: center;
-        // position:relative;
-        z-index: 2;
-        border-radius: 10px;
+        position:relative;
+        z-index: 1;
+        // border-radius: 10px;
+        padding-top:15px ;
         margin-bottom: 50px;
         max-width: 400px;
         margin: auto;
@@ -255,9 +261,10 @@
           font-weight: 900;
           font-size: 25px;
           padding: 10px;
+          background-color: none;
         }
         .textme{
-          font-weight: 600;
+          font-weight: 300;
           @media screen and (min-width:1000px){
             line-height: 30px;
             text-align: left;
@@ -267,28 +274,53 @@
   
   
       }
-      // .box{
-      //   position: relative;
-      //   display: flex;
-      //   margin:auto;
-      //   z-index: 3;
-      //   // background-color:rgb(38, 46, 79) ;
-      //   background-color: #ffffff;
-      //   width: 280px;
-      //   height:50px;
-      //   @media screen and (min-width:750px){
-      //     display: none;
-      //     position: absolute;
-      //     top:60px;
-      //     width: 250px;
-      //     height:50px;
-      //   }
-      // }
+      .orange-box{
+        position:absolute;
+        top:0px;
+        left:0px;
+        z-index: 1;
+        background-color: #e07d54;
+        width:280px;
+        height:335px;
+        border-radius: 0px 0px 30px 0px;
+        @media screen and (min-width:500px){
+          width:380px;
+        }
+        @media screen and (min-width:750px){
+          width:300px;
+          top:40px;
+          border-radius: 0px 30px 30px 0px;
+
+        }
+      }
+      .blue-box{
+        position:absolute;
+        top:370px;
+        right:0px;
+        z-index: 1;
+        background-color: #e2f3fd;
+        width:280px;
+        height:240px;
+        border-radius: 30px 0px 0px 30px;
+        @media screen and (min-width:500px){
+          width:380px;
+        }
+        @media screen and (min-width:750px){
+          width:440px;
+          top:190px;
+          border-radius: 30px 0px 0px 30px;
+        }
+        @media screen and (min-width:1000px){
+          width:610px;
+          height:250px;
+          top:210px;
+        }
+      }
       .pictureme{
         // position: relative;
         display: flex;
         // top:-40px;
-        z-index: 1;
+        z-index: 3;
         display: flex;
         @media screen and (min-width:750px){
           // display: none;
@@ -299,9 +331,10 @@
       }
   
       .me{
-  
+        z-index: 3;
         margin:auto;
         width: 200px;
+        border-radius: 5px;
         @media screen and (min-width:750px){
           width:250px;
         }
@@ -315,6 +348,192 @@
   
   
   }
+  // resume page
+  .resume-page{
+    background-color: #ffffff;
+    color: #000000;
+    .contact-area{
+      @media screen and (min-width:500px){
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+    }
+    .resume-btn{
+      padding:10px;
+      background-color: #516542;
+      border-radius: 10px;
+      @media screen and (min-width:500px){
+        height:40px;
+        margin: 40px 30px;
+        justify-content: space-around;
+      }
+      @media screen and (min-width:750px){
+        padding:20px;
+        height:80px;
+        font-size:22px;
+        margin: 40px 90px;
+        justify-content: center;
+      }
+      a{
+        text-decoration: none;
+        color:#ffffff;
+        font-family: arial;
+        font-weight: 700;
+        text-align: center;
+      }
+    }
+    .contact-section{
+      margin: 10px auto;
+      border:5px solid #e07d54;
+      border-radius: 10px;
+      padding: 20px 10px;
+      width: 300px;
+      .email{
+        margin: 10px;
+        color:#2164a7;
+        font-weight: 900;
+      }
+    }
+    .contacts-socials{
+      display:flex;
+      justify-content: space-evenly;
+    }
+    .social-icon{
+      color:#22384e;
+      padding: 10px;
+      font-size: 55px;
+    }
+    .social-icon:hover{
+      color:rgb(121, 141, 184);
+    } 
+    .skills{
+      padding: 20px 0px;
+      background-color: #ffe1a0;
+      border-radius: 10px;
+      h1{
+      background-color: #f1b942;
+      width: 100%;
+      padding: 10px 0px;
+      }
+      .skill-icon-section{
+        display: none;
+        @media screen and (min-width:750px){
+          display: block;
+        }
+      }
+      .skill-icon{
+        color:#000000;
+        font-size: 40px;
+        padding:0px 20px;
+      }
+      .sizeImgMongodb{
+        width: 50px;
+        /* padding: 1rem; */
+      }
+      .sizeImgSQL{
+          width: 110px;
+          /* padding-top: 0.5rem; */
+      }
+      .sizeImgGraphql{
+          padding-left:0.5rem ;
+          width: 55px;
+          /* color:black; */
+      }
+      .skills-content{
+        @media screen and (min-width:750px){
+          display: flex;
+          justify-content: space-evenly;
+          margin-top:20px;
+        }
+      }
+      .proficiency{
+        margin: 0px 0px 10px 0px;
+        background-color: #f3cd7a;
+        border-radius: 12px;
+        padding:20px 30px 40px 30px;
+        .proficiency-title{
+          background-color:#f3cd7a;
+          font-weight: 900;
+        }
+      }
+      .proficiency-content{
+        display: flex;
+        justify-content: center;
+        // background-color: #f3cd7a;
+
+        .spacing{
+          // background-color: #f4ac4e;
+          margin: 4px 0px;
+          border-radius: 5px;
+          padding:8px;
+        }
+        .spacing-left{
+          text-align: left;
+          padding-left: 30px;
+          @media screen and (min-width:500px){
+            // padding-left: 70px;
+          }
+        }
+        .dot{
+          padding-bottom: 0.5rem;
+          list-style-type: disc;
+        }
+
+      }
+      .experience{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #f8ba94;
+        border-radius: 12px;
+        padding: 10px;
+        @media screen and (min-width:750px){
+          display: block;
+        }
+        @media screen and (min-width:1000px){
+          max-width: 327px;
+        }
+        h2{
+          // background-color: #f3cd7a;
+          padding:10px;
+          width:100%;
+        }
+        .line-border{
+          border-left-style: solid;
+        }
+        .dot{
+          text-align: left;
+          padding-bottom: 0.5rem;
+          padding-left: 5px;
+          font-weight: 900;
+          // list-style-type: disc;
+          letter-spacing: 0.001rem;
+          @media screen and (min-width:750px){
+            padding-bottom: 0rem;
+          }
+        }
+        .dot-details{
+          display: none;
+          // list-style-type: disc;
+          padding-left: 15px;
+          font-size: 12px;
+          text-align: left;
+          padding-bottom: 0.5rem;
+          @media screen and (min-width:750px){
+            display: block;
+          }
+        }
+        .desktop{
+          display: none;
+          @media screen and (min-width:1000px){
+            display: block;
+          }
+        }
+      }
+    }
+
+
+  }
   // portfolio page
   .portfolio-page{
     // background-color: #e2f3fd;
@@ -325,13 +544,6 @@
     .project-image{
       width: 100px;
     }
-  }
-  // resume page
-  .resume-page{
-    background-color: #ffffff;
-    color: #000000;
-    // padding: 100px;
-
   }
   // contact page
   .contact-page{
