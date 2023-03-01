@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1eab5d07.css",
+    "main.js": "/static/js/main.5402441f.js",
+    "static/js/787.3e85b57e.chunk.js": "/static/js/787.3e85b57e.chunk.js",
+    "static/media/polari.png": "/static/media/polari.49cb8e3b7a635467f894.png",
+    "static/media/me.png": "/static/media/me.55a09f73a7fe2fef67c9.png",
+    "static/media/foodweather.png": "/static/media/foodweather.750a2f354d256ff0d552.png",
+    "static/media/weather.png": "/static/media/weather.252ee684f17c0ad79b11.png",
+    "static/media/flippedChicago.jpg": "/static/media/flippedChicago.1dd9461cd4d8f5fc03bc.jpg",
+    "index.html": "/index.html",
+    "main.1eab5d07.css.map": "/static/css/main.1eab5d07.css.map",
+    "main.5402441f.js.map": "/static/js/main.5402441f.js.map",
+    "787.3e85b57e.chunk.js.map": "/static/js/787.3e85b57e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1eab5d07.css",
+    "static/js/main.5402441f.js"
+  ]
+}
