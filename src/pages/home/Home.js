@@ -22,10 +22,10 @@ const Trail = ({ open, children }) => {
 }
   
 export default function Home(){
-  const [open, set] = useState(true)
+  const [open] = useState(true)
     return(
       <div id="Home" className='home-page'>
-            <div className='main-text'onClick={() => set(state => !state)} >
+            <div className='main-text' >
               <Trail open={open}>
               <div className='white-font hello-center'> Hello, I am</div>
               <div className='white-font name-center'>Fiona Nicdao</div>
