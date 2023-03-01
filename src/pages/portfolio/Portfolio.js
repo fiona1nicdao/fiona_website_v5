@@ -3,9 +3,9 @@ import data from '../../assets/data/data'
 import OnePortfolio from './OnePortfolio'
 
 export default function Portfolio(){
+    // carousel for differnt projects 
     const [current,setCurrent] = useState(0)
     let length = data.length
-    // let navigate = useNavigate();
 
     function goForward(){
        setCurrent(current === length - 1 ? 0 :current + 1) 
@@ -27,9 +27,9 @@ export default function Portfolio(){
                 })}
             </div>
             <div className='arrow-container'>
-                <div onClick={goBackward}><i class="arrow-icons fa-solid fa-arrow-left-long"></i></div>
-                <div><i class="dots-icons fa-solid fa-ellipsis"></i></div>
-                <div onClick={goForward}><i class="arrow-icons fa-solid fa-arrow-right-long"></i></div>
+                <div onClick={goBackward}><i className="arrow-icons fa-solid fa-arrow-left-long"></i></div>
+                <div><i className="dots-icons fa-solid fa-ellipsis"></i></div>
+                <div onClick={goForward}><i className="arrow-icons fa-solid fa-arrow-right-long"></i></div>
             </div>
             <div className='blue-circle'></div>
             <div className='orange-circle'></div>
