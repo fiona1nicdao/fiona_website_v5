@@ -77,7 +77,7 @@ export default function Resume(){
 
                 <div className="experience">
                 <div className="work">
-                    <h2>Experience</h2>
+                    <h2 className="work-h2">Experience</h2>
                     <ul className="line-border">
                         <li className="dot">Dentsu Media</li>
                             <li className="dot-details desktop">Experience working as a Front End Engineer, where I built, maintained, tested, and optimized data-driven transactional experiences and e-commerce flows efficiently on tight deadlines.</li>
@@ -89,7 +89,7 @@ export default function Resume(){
                 </div>
 
                 <div className="education">
-                    <h2>Education</h2>
+                    <h2 className="work-h2">Education</h2>
                     <ul className="line-border">
                         <li className="dot">Northwestern</li>
                             <li className="dot-details"> Univeristy</li>

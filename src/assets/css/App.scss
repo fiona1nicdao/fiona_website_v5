@@ -417,6 +417,12 @@
       background-color: #f1b942;
       width: 100%;
       padding: 10px 0px;
+      font-family: 'Arial Narrow Bold', sans-serif;
+      color:#063a6e;
+      padding:20px 0px;
+      font-weight: 900;
+      font-size: 25px;
+      letter-spacing: 0.9px;
       }
       .skill-icon-section{
         display: none;
@@ -455,6 +461,7 @@
         border-radius: 12px;
         padding:20px 30px 40px 30px;
         .proficiency-title{
+          color:black;
           background-color:#f3cd7a;
           font-weight: 900;
         }
@@ -469,6 +476,9 @@
           margin: 4px 0px;
           border-radius: 5px;
           padding:8px;
+          @media screen and (min-width:750px){
+            font-size: 21px;
+          }
         }
         .spacing-left{
           text-align: left;
@@ -480,6 +490,9 @@
         .dot{
           padding-bottom: 0.5rem;
           list-style-type: disc;
+          @media screen and (min-width:750px){
+            font-size: 20px;
+          }
         }
 
       }
@@ -489,16 +502,19 @@
         background-color: #f8ba94;
         border-radius: 12px;
         padding: 10px;
+
         @media screen and (min-width:750px){
           display: block;
         }
         @media screen and (min-width:1000px){
-          max-width: 327px;
+          max-width: 477px;
         }
-        h2{
+        .work-h2{
           // background-color: #f3cd7a;
           padding:10px;
           width:100%;
+          font-size: 22px;
+          font-family: Arial, Helvetica, sans-serif;
         }
         .line-border{
           border-left-style: solid;
@@ -512,6 +528,7 @@
           letter-spacing: 0.001rem;
           @media screen and (min-width:750px){
             padding-bottom: 0rem;
+            font-size: 20px;
           }
         }
         .dot-details{
@@ -523,6 +540,7 @@
           padding-bottom: 0.5rem;
           @media screen and (min-width:750px){
             display: block;
+            font-size: 17px;
           }
         }
         .desktop{
@@ -650,11 +668,16 @@
       z-index: 1;
       display:none;
       background-color: #9eafb6;
-      width: 700px;
-      height:700px;
-      border-radius: 350px;
+      width: 500px;
+      height:500px;
+      border-radius: 250px;
       @media screen and (min-width:500px){
         display: block;
+      }
+      @media screen and (min-width:700px){
+        width: 700px;
+        height:700px;
+        border-radius: 350px;
       }
     }
     .orange-circle{
@@ -665,11 +688,16 @@
       z-index: 1;
       display:none;
       background-color: #d3a292;
-      width: 700px;
-      height:700px;
-      border-radius: 350px;
+      width: 500px;
+      height:500px;
+      border-radius: 250px;
       @media screen and (min-width:500px){
         display: block;
+      }
+      @media screen and (min-width:700px){
+        width: 700px;
+        height:700px;
+        border-radius: 350px;
       }
     }
 
