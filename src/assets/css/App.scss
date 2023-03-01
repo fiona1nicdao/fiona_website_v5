@@ -553,7 +553,11 @@
         z-index: 3;
         letter-spacing: 0.9px;
     }
-    .project-1, .project-2, .project-3{
+    .Projects{
+      position: relative;
+      z-index: 3;
+    }
+    .project-1{
       padding: 10px 0px;
     }
 
@@ -616,13 +620,19 @@
       .project-icons:hover{
         color:#2164a7;
       }
-      .arrow-container{
-        display: flex;
-        justify-content: center;
-      }
+
+    }
+    .arrow-container{
+      position: relative;
+      z-index: 3;
+      color: #a8512f;
+      // background-color: #233349;
+      display: flex;
+      justify-content: center;
       .arrow-icons{
-        font-size: 30px;
+        font-size: 40px;
         padding: 10px 15px;
+        font-weight: 900;
       }
       .arrow-icons:hover{
         color:#2164a7;
@@ -632,6 +642,37 @@
         padding: 10px 15px;
       }
     }
+    .blue-circle{
+      position:absolute;
+      margin: auto;
+      top:30px;
+      right:0px;
+      z-index: 1;
+      display:none;
+      background-color: #9eafb6;
+      width: 700px;
+      height:700px;
+      border-radius: 350px;
+      @media screen and (min-width:500px){
+        display: block;
+      }
+    }
+    .orange-circle{
+      position:absolute;
+      margin: auto;
+      bottom:0px;
+      left:0px;
+      z-index: 1;
+      display:none;
+      background-color: #d3a292;
+      width: 700px;
+      height:700px;
+      border-radius: 350px;
+      @media screen and (min-width:500px){
+        display: block;
+      }
+    }
+
   }
   // contact page
   .contact-page{
