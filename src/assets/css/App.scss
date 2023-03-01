@@ -9,16 +9,16 @@
   text-align: center;
 
   // Header
-  .menu-header{
+  .menu-header-hidden{
     // background-color:rgb(29, 40, 52);
     background-image: linear-gradient(to bottom, rgb(29, 40, 52),rgba(29, 40, 52,1),rgba(29, 40, 52, 0.8),rgba(29, 40, 52,0));
     height:180px;
     padding: 30px 30px 10px 30px;
     display: block;
     position: fixed;
-    top:0px;
+    top:-180px;
     width: 100%;
-    transition: top 0.3s;
+    transition: top 0.7s;
     z-index: 10;
     @media screen and (min-width: 500px){
       display: flex;
@@ -85,8 +85,86 @@
         
       }
     } 
+  }
+  .menu-header{
+    // background-color:rgb(29, 40, 52);
+    background-image: linear-gradient(to bottom, rgb(29, 40, 52),rgba(29, 40, 52,1),rgba(29, 40, 52, 0.8),rgba(29, 40, 52,0));
+    height:180px;
+    padding: 30px 30px 10px 30px;
+    display: block;
+    position: fixed;
+    top:0px;
+    width: 100%;
+    transition: top 0.7s;
+    z-index: 10;
+    @media screen and (min-width: 500px){
+      display: flex;
+      justify-content: space-around;
+      height: 70px;
+      padding: 30px 30px 10px 30px;
 
+    } 
+    .initials{
+      display: none;
+      font-family: 'Lobster','Roboto', sans-serif;
+      font-size: 20px;
+      letter-spacing: 0.17rem;
+      @media screen and (min-width:750px){
+        display: block;
+      }
 
+    }
+    .dropdown{
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: flex-start;
+      text-align: right;
+      @media screen and (min-width:500px) {
+        text-align: center;
+      }
+    }
+    .dropdown-menu-button{
+      color:#ffffff;
+      background: none;
+      border: none;
+      font-size: 40px;
+      padding:0px 0px 10px 0px;
+      @media screen and (min-width:500px) {
+        display: none;
+      }
+    }
+    .menu ul{
+      display: none;
+      @media screen and (min-width: 500px){
+        display: flex;
+      } 
+      li{
+        font-size: 20px;
+        padding:0px 20px 15px 20px;
+        font-weight: 900;
+        @media screen and (min-width: 500px){
+          padding:0px 20px 0px 20px;
+
+        }
+      }
+      li:hover{
+        color:#e07d54;
+      }
+      li a{
+        font-size: 20px;
+        color: #ffffff;
+        text-decoration: none;
+      }
+      li a:hover{
+        color:#e07d54;
+      }
+    }
+    @media screen and (max-width: 500px){
+      .dropdown:hover .menu ul{
+        display: block;
+        
+      }
+    } 
   }
   /* home page  */
   .home-page{

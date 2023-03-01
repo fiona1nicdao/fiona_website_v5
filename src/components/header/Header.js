@@ -1,19 +1,30 @@
-
+import React, {useState, useEffect} from "react";
 export default function Header(){
-    // const header = document.querySelector(".menu-header")
-    // let preScrollpos = window.pageYOffset;
-    // window.onscroll = function() {
-    //     let currentScrollPos = window.pageXOffset;
-    //     if (preScrollpos > currentScrollPos){
-    //         header.style.top='1px';
-    //     }else{
-    //         header.style.top= '-50px';
-    //     }
+    const [prevScrollPos, setPrevScrollPos] = useState(0);
+    const [menuView, setMenuView] = useState("menu-header");
 
-    //     preScrollpos = currentScrollPos;
-    // }
+  useEffect(() => {
+    const handleScroll = () => {
+        // find current scroll position
+        const currentScrollPos = window.pageYOffset;
+    
+        if(prevScrollPos < currentScrollPos){
+            // if scroll down hide menu header
+            setMenuView("menu-header-hidden")
+        }else {
+            // else you are going up so un-hide menu header
+            setMenuView("menu-header")
+        }
+        // set state to new scroll position
+        setPrevScrollPos(currentScrollPos);
+    };
+    window.addEventListener('scroll', handleScroll);
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  });
+
     return(
-        <header className="menu-header">
+        <header className={menuView}>
             <h1 className="initials">FN</h1>
             <div className="dropdown">
                 <button className="dropdown-menu-button">
