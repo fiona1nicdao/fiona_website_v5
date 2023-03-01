@@ -2,7 +2,6 @@
 export default function Resume(){
     return(
         <div id="Contact" className="resume-page">
-            {/* <div>Resume Page</div> */}
             <div className="contact-area">
                 <button className="resume-btn">
                     <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1RLBrxvKDF0HSdWaEYL7vXaK6iGlgnDkx/view?usp=sharing">View Resume</a>
@@ -35,9 +34,9 @@ export default function Resume(){
                     <i className="skill-icon fa-brands fa-react"></i>
                     <i className="skill-icon fa-brands fa-bootstrap"></i>
                     <i className="skill-icon fa-brands fa-node"></i>
-                    <img className="sizeImgMongodb"src="https://user-images.githubusercontent.com/50216349/74248780-cb022980-4cf0-11ea-93fb-724342358f0f.png"/>
-                    <img className="sizeImgSQL" src="https://camo.githubusercontent.com/3d0e496c6660afe5b12402e0d29e9b8f9cb8b39da511b3eadf2f3650b47a4c85/687474703a2f2f74616e6b77732e636f6d2f696d616765732f6d7973716c2e706e67"/>
-                    <img className="sizeImgGraphql" src="https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg"/>
+                    <img className="sizeImgMongodb"alt="mongoDB icon"src="https://user-images.githubusercontent.com/50216349/74248780-cb022980-4cf0-11ea-93fb-724342358f0f.png"/>
+                    <img className="sizeImgSQL"alt="SQL icon" src="https://camo.githubusercontent.com/3d0e496c6660afe5b12402e0d29e9b8f9cb8b39da511b3eadf2f3650b47a4c85/687474703a2f2f74616e6b77732e636f6d2f696d616765732f6d7973716c2e706e67"/>
+                    <img className="sizeImgGraphql" alt="graphQL icon"src="https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg"/>
                 
                 </div>
                 <div className="skills-content">
