@@ -18,7 +18,6 @@ function App() {
       <Resume/>
       <Portfolio/>
       <Footer/>
-
     </div>
   );
 }
