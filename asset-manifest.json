@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/fiona_website/static/css/main.fdfbecce.css",
-    "main.js": "/fiona_website/static/js/main.cb66c087.js",
-    "static/js/787.847a8a0f.chunk.js": "/fiona_website/static/js/787.847a8a0f.chunk.js",
-    "static/media/polari.png": "/fiona_website/static/media/polari.49cb8e3b7a635467f894.png",
-    "static/media/me.png": "/fiona_website/static/media/me.55a09f73a7fe2fef67c9.png",
-    "static/media/foodweather.png": "/fiona_website/static/media/foodweather.750a2f354d256ff0d552.png",
-    "static/media/weather.png": "/fiona_website/static/media/weather.252ee684f17c0ad79b11.png",
-    "static/media/flippedChicago.jpg": "/fiona_website/static/media/flippedChicago.1dd9461cd4d8f5fc03bc.jpg",
-    "index.html": "/fiona_website/index.html",
-    "main.fdfbecce.css.map": "/fiona_website/static/css/main.fdfbecce.css.map",
-    "main.cb66c087.js.map": "/fiona_website/static/js/main.cb66c087.js.map",
-    "787.847a8a0f.chunk.js.map": "/fiona_website/static/js/787.847a8a0f.chunk.js.map"
+    "main.css": "/fiona_website_v5/static/css/main.7c2eb5e9.css",
+    "main.js": "/fiona_website_v5/static/js/main.d25451d3.js",
+    "static/js/787.3e85b57e.chunk.js": "/fiona_website_v5/static/js/787.3e85b57e.chunk.js",
+    "static/media/polari.png": "/fiona_website_v5/static/media/polari.49cb8e3b7a635467f894.png",
+    "static/media/me.png": "/fiona_website_v5/static/media/me.55a09f73a7fe2fef67c9.png",
+    "static/media/foodweather.png": "/fiona_website_v5/static/media/foodweather.750a2f354d256ff0d552.png",
+    "static/media/weather.png": "/fiona_website_v5/static/media/weather.252ee684f17c0ad79b11.png",
+    "static/media/flippedChicago.jpg": "/fiona_website_v5/static/media/flippedChicago.1dd9461cd4d8f5fc03bc.jpg",
+    "index.html": "/fiona_website_v5/index.html",
+    "main.7c2eb5e9.css.map": "/fiona_website_v5/static/css/main.7c2eb5e9.css.map",
+    "main.d25451d3.js.map": "/fiona_website_v5/static/js/main.d25451d3.js.map",
+    "787.3e85b57e.chunk.js.map": "/fiona_website_v5/static/js/787.3e85b57e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fdfbecce.css",
-    "static/js/main.cb66c087.js"
+    "static/css/main.7c2eb5e9.css",
+    "static/js/main.d25451d3.js"
   ]
 }
