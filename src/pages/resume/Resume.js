@@ -8,7 +8,7 @@ export default function Resume(){
                 </button>
                 <div className="contact-section">
                     <h2>Let's Get In Touch! </h2>
-                    <div className="email">fionanicdao8374@gmail.com</div>
+                    <div className="email">fiona@fionanicdao.com</div>
                     <h2> You can reach me on socials</h2>
                         <ul className="contacts-socials">
                             <li>
