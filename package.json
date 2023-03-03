@@ -1,8 +1,8 @@
 {
-  "name": "fiona_website_v5",
+  "name": "fiona_website",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://fiona1nicdao.github.io/fiona_website_v5/",
+  "homepage":"https://fiona1nicdao.github.io/fiona_website/",
   "dependencies": {
     "@react-spring/parallax": "^9.7.1",
     "@react-spring/web": "^9.7.1",
