@@ -1,3 +1,5 @@
+import {NavLink} from 'react-router-dom'
+
 export default function Footer(){
     return(
         <footer>
@@ -11,6 +13,11 @@ export default function Footer(){
                   <a target="_blank" rel="noopener noreferrer" href="https://github.com/fiona1nicdao">
                     <i className="footer-icon fa-brands fa-github"></i>
                   </a>
+              </li>
+              <li>
+                  <NavLink to='/travel'>
+                    <i className="footer-icon fa-solid fa-plane"></i>
+                  </NavLink>
               </li>
             </ul>
         </footer>
