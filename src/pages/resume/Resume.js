@@ -28,14 +28,16 @@ export default function Resume(){
             <div className="skills"> 
                 <h1>Skills & Experiences</h1>
                 <div className="skill-icon-section">
+                    <i className="skill-icon fa-brands fa-java"></i>
                     <i className="skill-icon fa-brands fa-html5"></i>
                     <i className="skill-icon fa-brands fa-css3-alt"></i>
                     <i className="skill-icon fa-brands fa-square-js"></i>
+                    <i className="skill-icon fa-brands fa-python"></i>
                     <i className="skill-icon fa-brands fa-react"></i>
                     <i className="skill-icon fa-brands fa-bootstrap"></i>
                     <i className="skill-icon fa-brands fa-node"></i>
                     <img className="sizeImgMongodb"alt="mongoDB icon"src="https://user-images.githubusercontent.com/50216349/74248780-cb022980-4cf0-11ea-93fb-724342358f0f.png"/>
-                    {/* <img className="sizeImgSQL"alt="SQL icon" src="https://camo.githubusercontent.com/3d0e496c6660afe5b12402e0d29e9b8f9cb8b39da511b3eadf2f3650b47a4c85/687474703a2f2f74616e6b77732e636f6d2f696d616765732f6d7973716c2e706e67"/> */}
+                    <i className="skill-icon fa-solid fa-database"></i>
                     <img className="sizeImgGraphql" alt="graphQL icon"src="https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg"/>
                 
                 </div>
