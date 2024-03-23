@@ -14,11 +14,12 @@ export default function Footer(){
                     <i className="footer-icon fa-brands fa-github"></i>
                   </a>
               </li>
-              <li>
+              {/* working on this page still  */}
+              {/* <li>
                   <NavLink to='/travel'>
                     <i className="footer-icon fa-solid fa-plane"></i>
                   </NavLink>
-              </li>
+              </li> */}
             </ul>
         </footer>
     )

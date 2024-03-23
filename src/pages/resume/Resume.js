@@ -4,11 +4,11 @@ export default function Resume(){
         <div id="Contact" className="resume-page">
             <div className="contact-area">
                 <button className="resume-btn">
-                    <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1q1EKLx0dT3Utp_vGiCbspLCsVys4nlF_/view?usp=sharing">View Resume</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1IkkS3aSxd_X4_LP7NqfH0F9b73arOuRS/view?usp=sharing">View Resume</a>
                 </button>
                 <div className="contact-section">
                     <h2>Let's Get In Touch! </h2>
-                    <div className="email">fiona@fionanicdao.com</div>
+                    <div className="email">fiona1nicdao@gmail.com</div>
                     <h2> You can reach me on socials</h2>
                         <ul className="contacts-socials">
                             <li>
@@ -35,7 +35,7 @@ export default function Resume(){
                     <i className="skill-icon fa-brands fa-bootstrap"></i>
                     <i className="skill-icon fa-brands fa-node"></i>
                     <img className="sizeImgMongodb"alt="mongoDB icon"src="https://user-images.githubusercontent.com/50216349/74248780-cb022980-4cf0-11ea-93fb-724342358f0f.png"/>
-                    <img className="sizeImgSQL"alt="SQL icon" src="https://camo.githubusercontent.com/3d0e496c6660afe5b12402e0d29e9b8f9cb8b39da511b3eadf2f3650b47a4c85/687474703a2f2f74616e6b77732e636f6d2f696d616765732f6d7973716c2e706e67"/>
+                    {/* <img className="sizeImgSQL"alt="SQL icon" src="https://camo.githubusercontent.com/3d0e496c6660afe5b12402e0d29e9b8f9cb8b39da511b3eadf2f3650b47a4c85/687474703a2f2f74616e6b77732e636f6d2f696d616765732f6d7973716c2e706e67"/> */}
                     <img className="sizeImgGraphql" alt="graphQL icon"src="https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg"/>
                 
                 </div>
@@ -49,7 +49,7 @@ export default function Resume(){
                                 <li className="dot">HTML</li>
                                 <li className="dot">SASS</li>
                                 <li className="dot">CSS</li>
-
+                                <li className="dot">Java</li>
                                 <li className="dot">JavaScript</li>
                                 <li className="dot">jQuery</li>
                                 <li className="dot">responsive design</li>
@@ -61,6 +61,7 @@ export default function Resume(){
                             <h2 className="spacing">Back-end</h2>
                             <ul className="spacing-left">
                                 <li className="dot">Python</li>
+                                <li className="dot">Data Structures</li>
                                 <li className="dot">API</li>
                                 <li className="dot">Node</li>
                                 <li className="dot">Express</li>
@@ -79,8 +80,11 @@ export default function Resume(){
                 <div className="work">
                     <h2 className="work-h2">Experience</h2>
                     <ul className="line-border">
-                        <li className="dot">Dentsu Media</li>
-                            <li className="dot-details desktop">Experience working as a Front End Engineer, where I built, maintained, tested, and optimized data-driven transactional experiences and e-commerce flows efficiently on tight deadlines.</li>
+                        <li className="dot">Teaching Assistant</li>
+                            <li className="dot-details desktop">Experience working as a Teaching Assistant at Loyola Univeristy Chicago, tutor students on Discrete Structure concepts such as sets, boolean expressions,algorithmic time, etc. As well as give constructive feedback on assignments & exams and grade their correctness and work. </li>
+                            <li className="dot-details">Chicago, IL</li>
+                        <li className="dot">Front End Engineer</li>
+                            <li className="dot-details desktop">Experience working as a Front End Engineer at Dentsu Media, where I built, maintained, tested, and optimized data-driven transactional experiences and e-commerce flows efficiently on tight deadlines.</li>
                             <li className="dot-details">Chicago, IL</li>
                         <li className="dot">Lab Research</li>
                             <li className="dot-details desktop">Developed strengths in creativity and teamwork, and I am an innovative problem-solver. Also achieved academic paper publication in a scientific journal PNAS</li>
@@ -91,12 +95,14 @@ export default function Resume(){
                 <div className="education">
                     <h2 className="work-h2">Education</h2>
                     <ul className="line-border">
+                        <li className="dot">Loyola Chicago</li>
+                            <li className="dot-details">Univeristy</li>
+                            <li className="dot-details">Master's of Science in Computer Science (working on it) </li>
+                            <li className="dot-details">Bachelor's of Science in Biology </li>
                         <li className="dot">Northwestern</li>
                             <li className="dot-details"> Univeristy</li>
                             <li className="dot-details">Full Stack Web Development Certificate</li>
-                        <li className="dot">Loyola Chicago</li>
-                            <li className="dot-details">Univeristy</li>
-                            <li className="dot-details">Bachelor's of Science in Biology </li>
+                        
                     </ul>
                 </div>
                 </div>
