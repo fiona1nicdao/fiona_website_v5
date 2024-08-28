@@ -4,7 +4,7 @@ export default function Resume(){
         <div id="Contact" className="resume-page">
             <div className="contact-area">
                 <button className="resume-btn">
-                    <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1IkkS3aSxd_X4_LP7NqfH0F9b73arOuRS/view?usp=sharing">View Resume</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1FnxlnCsmGdt3cG4gM0AfoyQ9yjnvf30q/view?usp=sharing">View Resume</a>
                 </button>
                 <div className="contact-section">
                     <h2>Let's Get In Touch! </h2>
@@ -63,6 +63,7 @@ export default function Resume(){
                             <h2 className="spacing">Back-end</h2>
                             <ul className="spacing-left">
                                 <li className="dot">Python</li>
+                                <li className="dot">Java</li>
                                 <li className="dot">Data Structures</li>
                                 <li className="dot">API</li>
                                 <li className="dot">Node</li>
