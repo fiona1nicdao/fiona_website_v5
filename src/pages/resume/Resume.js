@@ -4,7 +4,7 @@ export default function Resume(){
         <div id="Contact" className="resume-page">
             <div className="contact-area">
                 <button className="resume-btn">
-                    <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1FnxlnCsmGdt3cG4gM0AfoyQ9yjnvf30q/view?usp=sharing">View Resume</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1iFbfSfBcXEHDNJ0eMim9vxStO6lOywp3/view?usp=sharing">View Resume</a>
                 </button>
                 <div className="contact-section">
                     <h2>Let's Get In Touch! </h2>
@@ -57,6 +57,9 @@ export default function Resume(){
                                 <li className="dot">responsive design</li>
                                 <li className="dot">React.js</li>
                                 <li className="dot">Bootstrap</li>
+                                {/* <li className="dot">Software Engineer</li> */}
+                                {/* <li className="dot">XML</li> */}
+                                {/* <li className="dot">PHP</li> */}
                             </ul>
                         </div>
                         <div>
@@ -73,6 +76,7 @@ export default function Resume(){
                                 <li className="dot">REST</li>
                                 <li className="dot">GraphQL</li>
                                 <li className="dot">Apollo</li>
+                                <li className="dot">Machine Learning </li>
 
                             </ul>
                         </div>
