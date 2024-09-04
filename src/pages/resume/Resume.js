@@ -71,7 +71,8 @@ export default function Resume(){
                                 <li className="dot">API</li>
                                 <li className="dot">Node</li>
                                 <li className="dot">Express</li>
-                                <li className="dot">MySQL, Squelize</li>
+                                <li className="dot">SQL, Squelize</li>
+                                <li className="dot">NOSQL</li>
                                 <li className="dot">MongoDB, Mongoose</li>
                                 <li className="dot">REST</li>
                                 <li className="dot">GraphQL</li>
