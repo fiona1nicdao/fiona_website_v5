@@ -4,11 +4,11 @@ export default function Resume(){
         <div id="Contact" className="resume-page">
             <div className="contact-area">
                 <button className="resume-btn">
-                    <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1j6N8jZBa6Y5UTEDwuYhjlOjAdU9cVuXB/view?usp=sharing">View Resume</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1gpTd4ct3RyAzkIfvCAeZpklONaTrnbXN/view?usp=sharing">View Resume</a>
                 </button>
                 <div className="contact-section">
                     <h2>Let's Get In Touch! </h2>
-                    <div className="email">fiona1nicdao@gmail.com</div>
+                    <div className="email">fionanicdao8374@gmail.com</div>
                     <h2> You can reach me on socials</h2>
                         <ul className="contacts-socials">
                             <li>
