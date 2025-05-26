@@ -1,2 +1,12 @@
 npm run deploy 
 npm start 
+
+add new projects later : 
+1 : 
+    {
+        id:1,
+        imageSrc:polariPIC,
+        title:"Sign Language Resnet",
+        description:"deep learning",
+        github:"http",
+    },
