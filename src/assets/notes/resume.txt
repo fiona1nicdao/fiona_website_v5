@@ -1,0 +1,89 @@
+Fiona Nicdao
+Data Scientist 
+PERSONAL INFORMATION
+    Chicago IL
+    (630) 297-7878
+    fionanicdao8374@gmail.com
+    https://fionanicdao.com/
+    https://github.com/fiona1nicdao
+    https://www.linkedin.com/in/fiona-nicdao221513175luc/
+PROFESSIONAL SUMMARY
+    Data Scientist leveraging background in Computer Science & Biology to apply my
+    scientific mentality and programming knowledge. Innovative problem-solver passionate
+    about developing apps with a wide scope of functionality and connecting to a variety
+    of databases. Strengths in creativity, teamwork, and independent learner.
+EDUCATION
+    Master of Science - MS,Computer Science
+        Loyola University Chicago 
+        May 2023 - Spring 2025
+        TECHNICAL SKILLS: Java,Python, Deep Learning, Machine Learning,Big Data Analytics,
+        Superset, SQL,Docker,Agile,Database Programing, Fundamentals of computer security
+    Northwestern University/Full Stack Coding Certificate
+        Sept 2021 - March 2022
+    Bachelor of Science -BS, Biology Emphasis in Molecular Biology
+        Loyola University Chicago 
+        Aug 2014 - May 2018
+ORGANIZATIONS
+    Women in Cybersecurity (WiCyS) Chapter Loyola University Chicago
+    Position: Treasurer
+    Summary: Leadership role with the responsibility to keep track of the budget and
+    analyze event spending to make sure all vendors are paid for and accounted.Communicate
+    with other board members in a timely manner to plan for speakers and events held by
+    the club.
+WORK EXPERIENCE
+    WiCyS Conference 2025
+        April 2025
+    Teaching Assistant
+        Loyola University Chicago
+        Chicago IL
+        Jan 2024 – present
+        Mentor and tutor students on concepts in data structures, visual programming, sets,
+        boolean expressions, proofs, algorithmic time, etc.
+        Give constructive feedback to students’ assignments and grade homework and exam
+        Created lesson plans and taught classes on Linked List
+    Front End Engineer 
+        Dentsu Media
+        Chicago IL
+        May 2022 – Oct 2022
+        Build,maintain, test, and optimize targeted, data-driven transactional experiences
+        and e-commerce flows.Balanced multiple projects to meet tight deadlines; e.i.2 hr
+        notice
+        Participate within the UX Team of 10 people—composed of UI Designers, Front End
+        Engineers and Content Management team members — as a collaborative contributor to
+        problem solve
+        Developed code that is integral with a Content Management System (CMS) for company
+        internal and external websites
+        Work with cross-functional teams such as Product, Software Engineering, and Client
+        Solutions (Project Management) to provide critical Front End perspective to
+        potential solutions, code optimization, improve technical documentation and
+        innovation opportunities
+        Collaborate in code reviews, research, and internal initiatives in weekly
+        strategy meetings
+        Tools: JavaScript, jQuery, Node.js, HTML, SCSS, CSS,Jenkins, Github, etc.
+    Research Technologist
+        Northwestern University
+        Chicago, IL
+        May 2019 – May 2022
+        Create recombinant ~50 DNA plasmids, transfect DNA into cells, & maintain cell
+        cultures
+        Lab of 8 researchers and Immunofluorescent staining of fixed cells and basic
+        confocal microscopy.
+        Achievements: Academic paper publication in scientific journal PNAS
+        https://www.pnas.org/doi/full/10.1073/pnas.2121816119
+PROJECTS
+    Sign Language Translation Project
+        https://colab.research.google.com/drive/1WMKQYGnC_8IRPsHu8yPymrR226PvAX86
+        Role: Responsible for preprocessing the dataset and optimizing the model: ResNet34
+        Summary: Looking at a dataset of images of American sign language letters except
+        for letter J and Z, we created a ResNet34 to analyze the images and classify which
+        letter each image was signed for. The model has a 92% accuracy for the test dataset.
+        Tools : Python, tensorflow, keras, kaggle(for the dataset)
+    Polari
+        https://github.com/polari-2022
+        https://polari-attachments.herokuapp.com/
+        Role: Backend developer / database / created the matching algorithm
+        Summary: Dating website for the LGBTQ community with an emphasis on attachment
+        styles. Website built in 2 weeks with a team of 5 people. Able to fix 80% of the
+        debug of the issues.
+        Tools:React.JS, CSS,HTML5, JavaScript, Node.js,MongoDB, Mongoose, GraphQL, Gulp,
+        Express.js, GitHub, Heroku
