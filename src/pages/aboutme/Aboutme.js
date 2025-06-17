@@ -14,7 +14,7 @@ export default function Aboutme(){
                 </div>
                 <div className="Paragraph">
                     <p className="textcoder">Byte about me ...</p>
-                    <p className="textme"> Continuing my Education! Pursuing a graduate degree in Computer Science! Leveraging a science background to build a more intuitive user experience. Experience with e-commerce websites in different areas, like healthcare, communications, and banking. Educated in full-stack development. I am known as an innovative problem solver and eager to learn new languages and programs. I am excited to leverage my skill as part of a fast-paced, quality-driven team to build a better experience on the web.</p>
+                    <p className="textme"> I’m Fiona Nicdao, a Data Scientist with a strong foundation in Computer Science and Biology. I thrive on applying analytical thinking and technical skills to solve complex problems through innovative data-driven solutions. With experience in both academia and industry—including roles in research, front-end development, and teaching—I bring a diverse and adaptive approach to every project. I also previously served as Treasurer for the Women in CyberSecurity (WiCyS) chapter at Loyola University Chicago, where I managed budgets and coordinated events to support women in the field. I'm passionate about building functional, user-focused applications and continuously expanding my knowledge in machine learning, deep learning, and database systems.</p>
                 </div>
             </div>
  

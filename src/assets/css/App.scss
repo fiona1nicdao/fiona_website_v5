@@ -275,6 +275,7 @@
       position:relative;
       // top: 100px;
       padding: 10px;
+      padding-bottom: 70px;
       // background-color: rgb(38, 46, 79);
       background-color: #ffffff;
       // height: 800px;
@@ -373,25 +374,28 @@
       }
       .blue-box{
         position:absolute;
-        top:370px;
+        top:300px;
         right:0px;
         z-index: 1;
         background-color: #e2f3fd;
-        width:280px;
-        height:240px;
+        width: 480px;
+        height:500px;
         border-radius: 30px 0px 0px 30px;
         @media screen and (min-width:500px){
-          width:380px;
+          width:580px;
+          height:500px;
+          top:305px;
         }
         @media screen and (min-width:750px){
-          width:440px;
-          top:190px;
+          width:590px;
+          height:500px;
+          top:105px;
           border-radius: 30px 0px 0px 30px;
         }
         @media screen and (min-width:1000px){
-          width:610px;
-          height:250px;
-          top:210px;
+          width:840px;
+          height:500px;
+          top:150px;
         }
       }
       .pictureme{
@@ -421,7 +425,7 @@
   
         }
   
-  
+
       }
   
   
@@ -439,17 +443,16 @@
 
     }
     .resume-btn{
-      padding:10px;
+      padding:20px;
+      height:80px;
+      font-size:22px;
       background-color: #516542;
       border-radius: 10px;
       @media screen and (min-width:500px){
-        height:40px;
         margin: 40px 30px;
         justify-content: space-around;
       }
       @media screen and (min-width:750px){
-        padding:20px;
-        height:80px;
         font-size:22px;
         margin: 40px 90px;
         justify-content: center;
@@ -463,7 +466,8 @@
       }
     }
     .contact-section{
-      margin: 10px auto;
+      // margin: 10px auto;
+      margin: 10px;
       border:5px solid #e07d54;
       border-radius: 10px;
       padding: 20px 10px;
