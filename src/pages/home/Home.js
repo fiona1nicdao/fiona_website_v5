@@ -29,7 +29,7 @@ export default function Home(){
               <Trail open={open}>
               <div className='white-font hello-center'> Hello, I am</div>
               <div className='white-font name-center'>Fiona Nicdao</div>
-              <div className='white-font title-text'>Data Scientist</div>
+              <div className='white-font title-text'>Data Analyst</div>
               </Trail>
            </div>
             {/* <div className='sub-text'>

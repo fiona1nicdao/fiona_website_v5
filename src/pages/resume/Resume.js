@@ -46,40 +46,46 @@ export default function Resume(){
                     <h1 className="proficiency-title">Proficiency</h1>
                     <div className="proficiency-content">
                         <div>
-                            <h2 className="spacing">Front-end</h2>
+                            <h2 className="spacing">Foundation</h2>
                             <ul className="spacing-left">
-                                <li className="dot">HTML</li>
-                                <li className="dot">SASS</li>
-                                <li className="dot">CSS</li>
-                                <li className="dot">Java</li>
-                                <li className="dot">JavaScript</li>
-                                <li className="dot">jQuery</li>
-                                <li className="dot">responsive design</li>
-                                <li className="dot">React.js</li>
-                                <li className="dot">Bootstrap</li>
-                                {/* <li className="dot">Software Engineer</li> */}
-                                {/* <li className="dot">XML</li> */}
-                                {/* <li className="dot">PHP</li> */}
+                                <li className="dot">Data Structures</li>
+                                <li className="dot">Machine Learning</li>
+                                <li className="dot">Deep Learning</li>
+                                <li className="dot">Data Mining</li>
+                                <li className="dot">Database Programming</li>
+                                <li className="dot">Cybersecurity 101</li>
+                            </ul>
+                            <h2 className="spacing spacing-data">Data & Analytics</h2>
+                            <ul className="spacing-left">
+                                <li className="dot">Tableau</li>
+                                <li className="dot">Excel</li>
+                                <li className="dot">Apache Superset</li>
+                                <li className="dot">GraphQL</li>
+                                <li className="dot">PostgreSQL</li>
                             </ul>
                         </div>
                         <div>
-                            <h2 className="spacing">Back-end</h2>
+                            <h2 className="spacing">Programming</h2>
                             <ul className="spacing-left">
                                 <li className="dot">Python</li>
                                 <li className="dot">Java</li>
-                                <li className="dot">Data Structures</li>
-                                <li className="dot">API</li>
-                                <li className="dot">Node</li>
-                                <li className="dot">Express</li>
-                                <li className="dot">SQL, Squelize</li>
-                                <li className="dot">NOSQL</li>
-                                <li className="dot">MongoDB, Mongoose</li>
-                                <li className="dot">REST</li>
-                                <li className="dot">GraphQL</li>
-                                <li className="dot">Apollo</li>
-                                <li className="dot">Machine Learning </li>
-
+                                <li className="dot">JavaScript</li>
+                                <li className="dot">SQL</li>
+                                <li className="dot">HTML/CSS</li>
+                                <li className="dot">Node.js</li>
                             </ul>
+
+                            <h2 className="spacing spacing-framework">Frameworks & Tools</h2>
+                            <ul className="spacing-left">
+                                <li className="dot">TensorFlow</li>
+                                <li className="dot">Keras</li>
+                                <li className="dot">React.js</li>
+                                <li className="dot">MongoDB</li>
+                                <li className="dot">Express.js</li>
+                                <li className="dot">GitHub</li>
+                                <li className="dot">Docker</li>
+                            </ul>
+                            
                         </div>
                     </div>
                 </div>    
