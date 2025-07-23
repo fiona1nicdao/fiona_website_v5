@@ -4,7 +4,7 @@ export default function Resume(){
         <div id="Contact" className="resume-page">
             <div className="contact-area">
                 <button className="resume-btn">
-                    <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1NlEYLSaLdg9yNF4z-sspBlCZWRtASeQu/view?usp=sharing">View Resume</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1OW1tfkzaI6smlldjqnfcqwbb45l4gQac/view?usp=drive_link">View Resume</a>
                 </button>
                 <div className="contact-section">
                     <h2>Let's Get In Touch! </h2>
