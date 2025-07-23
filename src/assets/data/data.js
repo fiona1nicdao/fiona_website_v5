@@ -3,6 +3,7 @@ import weatherPIC from '../../assets/images/weather.png'
 import polariPIC from '../../assets/images/polari.png'
 import sleepPIC from '../../assets/images/sleep_analysis.png'
 import resnetPIC from '../../assets/images/sign_lan_resnet.png'
+import fridatingPIC from '../../assets/images/fridatingPIC.png'
 
 const data =[
     {
@@ -23,6 +24,14 @@ const data =[
     },
     {
         id:3,
+        imageSrc:fridatingPIC,
+        title:"FRIDATING",
+        description:"This project models the backend SQL database of the FRIDATING platform, including user accounts, chat functionality, subscription plans, and event management.",
+        website:"https://github.com/fiona1nicdao/FRIDATING",
+        github:"https://github.com/fiona1nicdao/FRIDATING",
+    },
+    {
+        id:4,
         imageSrc:polariPIC,
         title:"Polari",
         description:"Polari is a dating website caterd to the LGBTQ community with an emphasis to educate users of their attachment styles.",
@@ -31,7 +40,7 @@ const data =[
 
     },
     {
-        id:4,
+        id:5,
         imageSrc:weatherPIC,
         title:"Weather Dashboard",
         description:"Weather dashboard site that shows the weather outlook for multiple cities and for one city the five day future forecast.",
@@ -40,7 +49,7 @@ const data =[
 
     },
     {
-        id:5,
+        id:6,
         imageSrc:foodweatherPIC,
         title:"What's your Food Temp?",
         description:"Weather dashboard site that shows the weather outlook for multiple cities and for one city the five day future forecast.",
