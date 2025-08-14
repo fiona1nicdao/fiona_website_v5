@@ -1,0 +1,17 @@
+Fiona Nicdao 
+
+From my time as a research technologist I would analyze cellular protein data
+ to make tables and graphs to recommend what other experiments could be done
+ to further investigate the cellular protein, lamins and vimentins which are
+ proteins part of the cytoskeleton of a cell. During my Big Data Analysis 
+ and Database Programming classes from my master’s program, I have 
+ developed strong skills in analyzing complex datasets using advanced SQL
+ in class projects analyzing from a food and recipe project and a friend's 
+ “dating” project. I have experience in statistical problem-solving and 
+ analyzing data sets using SQL and python in my sleep analysis project from
+ my data mining course. I was a teaching assistant and I have experience 
+ reading, analyzing, and grading student code in Java and I have a great 
+ understanding of how to identify good code and give feedback to students
+ when necessary. 
+
+Thank you for your consideration. 
